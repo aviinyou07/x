@@ -30,7 +30,7 @@ export default function App() {
   };
 
   return (
-    <div className="bg-gray-200 min-h-screen flex justify-center items-center">
+    <div className="bg-gray-200 flex justify-center items-center">
       <div className="bg-white shadow-lg rounded-xl flex flex-col overflow-hidden w-full h-screen max-w-[992px] lg:w-[320px] lg:rounded-xl">
         
         {/* ✅ Top Bar */}

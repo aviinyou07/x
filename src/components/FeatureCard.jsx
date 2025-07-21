@@ -3,7 +3,7 @@ import React from "react";
 export default function FeatureCard({ icon, title, description }) {
   return (
     <div
-      className="flex items-start bg-white rounded-xl shadow-sm border border-gray-300 w-full max-w-xs p-2.5 mb-2.5 font-['Roboto_Flex']"
+      className="flex bg-white rounded-xl shadow-sm border border-gray-300 w-full  p-2.5 mb-2.5 font-['Roboto_Flex']"
     >
       <img
         src={icon}

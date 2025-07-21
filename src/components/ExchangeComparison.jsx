@@ -8,12 +8,12 @@ import a4 from "../assets/ad4.png";
 
 export default function ExchangeComparison() {
     return (
-        <div className="max-w-sm mx-auto bg-[#f8f9fc] text-[#0f0f10] text-[13px] font-normal">
+        <div className="bg-[#f8f9fc] text-[#0f0f10] text-[13px] font-normal">
             {/* Exchange Prices */}
-            <h3 className="text-[12px] font-bold mb-2 text-[#0f0f10]">Exchange Price</h3>
-            <div className="flex flex-col sm:flex-row sm:space-x-3 space-y-3 sm:space-y-0">
+            <h3 className="text-[12px] font-bold my-2 text-[#0f0f10]">Exchange Price</h3>
+            <div className="flex space-x-4">
                 {/* WazirX Card */}
-                <div className="bg-[#fff] text-[16px] p-2.5 w-full sm:w-1/2 rounded-md border border-gray-200 shadow-sm">
+                <div className="bg-[#fff] text-[16px] p-2.5 w-1/2 rounded-md border border-gray-200 shadow-sm">
                     <img src={wazirxLogo} alt="WazirX" className="mb-1 h-auto max-h-12 object-contain" />
                     <div className="text-[12px] text-[#0f0f10] font-medium">
                         Avg <span className="font-bold text-[14px]">91</span> Rs
@@ -23,7 +23,7 @@ export default function ExchangeComparison() {
                 </div>
 
                 {/* Binance Card */}
-                <div className="bg-[#fff] text-[16px] p-2.5 w-full sm:w-1/2 rounded-md border border-gray-200 shadow-sm">
+                <div className="bg-[#fff] text-[16px] p-2.5 w-1/2 rounded-md border border-gray-200 shadow-sm">
                     <img src={binanceLogo} alt="Binance" className="mb-1 h-auto max-h-12 object-contain" />
                     <div className="text-[12px] text-[#0f0f10] font-medium">
                         Avg <span className="font-bold text-[14px]">91.5</span> Rs
@@ -34,7 +34,7 @@ export default function ExchangeComparison() {
             </div>
 
             {/* Stats Note */}
-            <p className="text-[9px] text-[#4B4B4B] text-center mt-2">
+            <p className="text-[10px] font-light text-[#4B4B4B] text-center mt-2">
                 Statistics based on the latest 10 pieces of data
             </p>
 

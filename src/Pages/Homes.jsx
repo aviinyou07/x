@@ -10,16 +10,16 @@ import MarketList from "../components/MarketList";
 
 export default function HomePage() {
   return (
-    <div className="px-4">
+    <div>
       {/* Banner Image */}
       <img
         src={banner}
         alt="Welcome Banner"
-        className="rounded-xl mb-4 mx-auto w-full max-w-xs"
+        className="rounded-xl mb-4 w-full"
       />
 
       {/* Feature Cards */}
-      <div className="space-y-4 max-w-md mx-auto">
+      <div className="space-y-4 max-w-md">
         <FeatureCard
           icon={st1}
           title="Get started in seconds"
@@ -42,7 +42,7 @@ export default function HomePage() {
         <img
           src={phonePreview}
           alt="App UI"
-          className="rounded-xl shadow w-[210px] h-[305px]"
+          className="rounded-xl shadow w-[220px] h-[305px]"
         />
       </div>
 

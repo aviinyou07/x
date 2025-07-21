@@ -60,7 +60,7 @@ export default function ExchangePage() {
 
       {/* Price Card */}
       <div
-        className="rounded-xl shadow-xs bg-cover bg-center bg-no-repeat mb-2 p-4"
+        className="rounded-xl shadow-xs bg-cover bg-center bg-no-repeat p-4"
         style={{ backgroundImage: `url(${bgImage})`, backgroundColor: "#fff" }}
       >
         {/* Timer */}
