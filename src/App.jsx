@@ -1,8 +1,8 @@
 import React from "react";
 import { Routes, Route, useNavigate, useLocation } from "react-router-dom";
 import HomePage from "./Pages/Homes";
-import ExchangePage from "./pages/Exchange";
-import LoginPage from "./pages/Login";
+import ExchangePage from "./Pages/Exchanges";
+import LoginPage from "./Pages/Logins";
 
 import logoex from "./assets/logoex.png";
 import homeIcon from "./assets/home.png";
