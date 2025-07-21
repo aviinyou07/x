@@ -1,0 +1,34 @@
+@import "tailwindcss";
+body {
+  font-family: 'Roboto Flex', sans-serif;
+  background-color: #f8f9fc!important;
+}
+.scroll-hidden::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+.scroll-hidden {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
+@keyframes slide-up {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}
+.animate-slide-up {
+  animation: slide-up 0.3s ease-out;
+}
+
+@keyframes fade {
+  0% { opacity: 0 }
+  10% { opacity: 1 }
+  90% { opacity: 1 }
+  100% { opacity: 0 }
+}
+.animate-fade {
+  animation: fade 3s infinite;
+}
